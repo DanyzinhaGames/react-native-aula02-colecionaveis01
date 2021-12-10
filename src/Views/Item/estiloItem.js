@@ -1,23 +1,23 @@
 import { StyleSheet } from "react-native";
 
-const estiloInicial = StyleSheet.create({
-    container: {
-        flex:1,
-        justifyContent: 'center',
-        alignItems:'center',
+const estiloItem= StyleSheet.create({
+    container:{
+     flex:1,
+     justifyContent: 'center',
+     alignItems: 'center',
     },
-    borda:{
+    borda: {
         backgroundColor: '#081a31',
-        width:'80%',
-        height:'40%',
+        width: '80%',
+        height: '25%',
         borderRadius: 10,
     },
-    texto: {
-        fontSize: 20,
-        color: '#FFFFFF',
-        fontWeight: 'bold',
-        textAlign: "center",
-        padding: 10,
+    texto:{
+       fontSize: 20,
+       color: '#FFFFFF',
+       fontWeight: 'bold',
+       textAlign: 'center',
+       padding: 10
     },
     botaoContainer:{
         marginTop: 20,
@@ -38,4 +38,3 @@ const estiloInicial = StyleSheet.create({
         fontWeight: 'bold',
     },
 })
-export default estiloInicial;

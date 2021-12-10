@@ -1,19 +1,19 @@
 import { StyleSheet } from "react-native";
 
-const estiloInicial = StyleSheet.create({
+const estiloColecao = StyleSheet.create({
     container: {
-        flex:1,
+        flex: 1,
         justifyContent: 'center',
-        alignItems:'center',
+        alignItems: 'center',
     },
-    borda:{
+    borda: {
         backgroundColor: '#081a31',
         width:'80%',
-        height:'40%',
+        height: '25%',
         borderRadius: 10,
     },
-    texto: {
-        fontSize: 20,
+    texto:{
+        fontSize:20,
         color: '#FFFFFF',
         fontWeight: 'bold',
         textAlign: "center",
@@ -22,20 +22,20 @@ const estiloInicial = StyleSheet.create({
     botaoContainer:{
         marginTop: 20,
         marginBottom: 20,
-        marginLeft:40,
-        marginRight:40,
+        marginLeft: 40,
+        marginRight: 40,
         borderRadius: 5,
-        height:40,
+        height: 40,
         borderWidth: 2,
-        borderColor:'#e8f2e9',
+        borderColor: '#e8f2e9',
         backgroundColor: '#14417b',
-        justifyContent: "center",
+        justifyContent: 'center',
         alignItems: 'center',
     },
     botaoTexto:{
         fontSize: 18,
         color: '#FFFFFF',
-        fontWeight: 'bold',
+        fontWeight:'bold'
     },
-})
-export default estiloInicial;
+});
+export default estiloColecao;
